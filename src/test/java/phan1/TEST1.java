@@ -6,7 +6,7 @@ import org.junit.*;
 
 
 public class TEST1 {
-	LocSoTu100den200 i;
+	LocSoTu100den200 i = new LocSoTu100den200();
 	@Test
 	public void ham1() {
 		Assert.assertFalse(i.LocSo(99));
